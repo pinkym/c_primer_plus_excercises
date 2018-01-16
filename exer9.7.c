@@ -6,8 +6,8 @@ double power(double a, int x);
 int main(){
 	double a;
 	int x;
-	printf("give the number and a power number:\
-			enter q to quit.\n");
+	printf("give the number and a power number:\n");
+	printf("enter q to quit.\n");
 	while(scanf("%lf %d", &a, &x) == 2){
 		printf("the power of %lf of %d is %lf\n", a, x, power(a, x));
 	}
