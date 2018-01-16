@@ -17,7 +17,7 @@ exer + 章节号 + 题目号
 ## 运行方法
 进入命令行工具，依次输入以下命令即可运行：
 `进入工程目录
-gcc exer9.1.c -o test
-test
+ gcc exer9.1.c -o test
+ test
  `
 
