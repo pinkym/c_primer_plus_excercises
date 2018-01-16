@@ -2,6 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+//这道理似乎理解错题意了
+//there seems to be some mistakes understanding the exercise
+
 void chline(char * ch, int i, int j);
 
 int main(){
