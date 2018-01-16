@@ -8,7 +8,7 @@ exer + 章节号 + 题目号
 
 ## 编译器及运行环境
 ### Windows系统的安装
-安装 MinGW。请访问 MinGW 的主页 www.mingw.org，进入 MinGW 下载页面，下载最新版本的 MinGW 安装程序。
+安装 MinGW。请访问[MinGW 的主页](http://www.mingw.org/) ，进入MinGW 下载页面，下载最新版本的 MinGW 安装程序。
 至少要安装 gcc-core、gcc-g++、binutils 和 MinGW runtime，但是一般情况下都会安装更多其他的项。
 添加 安装的 MinGW 的 bin 子目录到您的 PATH 环境变量中，就可以在命令行中通过简单的名称来指定这些工具。
 ### Linux系统
