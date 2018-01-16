@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double large_of(double * p_m, double * p_n);
+void large_of(double * p_m, double * p_n);
 
 int main(){
 	double a, b;
@@ -18,7 +18,7 @@ int main(){
 	return 0;
 }
 
-double large_of(double * p_m, double * p_n){
+void large_of(double * p_m, double * p_n){
 	if(*p_m >= *p_n){
 		*p_n = *p_m;
 	}else{
