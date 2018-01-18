@@ -17,9 +17,9 @@ int main(){
 		
 		//修改一下题目，把控制字符的显示字符也打印出来
 		if(ch == '\n'){
-			printf("%c, \\n, %d \t", ch, ch);
+			printf("\\n, %d \t", ch, ch);
 		}else if(ch == '\t'){
-			printf("%c, \\t, %d \t", ch, ch);
+			printf("\\t, %d \t", ch, ch);
 		}else if(ch == 0){
 			printf("%c, ^%c, %d \t", ch, ch + 80, ch);
 		}else if(ch >= 1 && ch <= 31){
